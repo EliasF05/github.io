@@ -1,12 +1,9 @@
 ---
 layout: default
-title: Elias Frühwein - Curriculum Vitae
+title: Projects
+--- 
+
+**[Home](index.md)** | **[Projects](projects.md)** | **[CV](cv.md)** 
+
 ---
 
-**[Home](index.md)** | **[CV](cv.md)** | 
-
----
-
-# Curriculum Vitae
-
-*(CV content coming soon)*
