@@ -1,123 +1,70 @@
 ---
 layout: default
+title: Elias Frühwein - Data Science Portfolio
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Elias Frühwein
+**Data Science Master's Student at ETH Zurich**  
+📍 Zurich, Switzerland | 📧 [elias@fruehwein.net](mailto:elias@fruehwein.net) | 🔗 [LinkedIn](https://linkedin.com)
 
-[Link to another page](./another-page.html).
+---
 
-There should be whitespace between paragraphs.
+## 🎓 Education
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### **ETH Zurich** *(Sep. 2026 – Jun. 2028 Expected)*
+* **Master of Science in Data Science**
+* *Zurich, CH*
 
-# Header 1
+### **Maastricht University** *(Sep. 2023 – Jun. 2026)*
+* **Bachelor of Science in Data Science and Artificial Intelligence**
+* *Maastricht, NL*
+* **Metrics:** GPA: 9.21/10 (Summa Cum Laude) | Ranked **1st** in a cohort of 189 students.
+* *Note:* Successfully managed a 2-year 40% part-time internship alongside tutoring in parallel with full-time studies.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### **German International School New York** *(Sep. 2019 – Jul. 2023)*
+* **German International Abitur & New York State High School Diploma**
+* *White Plains, NY, USA*
+* **Honors:** Awarded Abitur Book Prize (German Physical Society's top physics honor per graduating class).
 
-## Header 2
+---
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## 💼 Experience
 
-### Header 3
+### **Aucos AG** | *Machine Learning Research Intern*
+*Sep. 2024 – Jun. 2026 | Aachen, DE*
+* **Role:** Solely responsible for predictive time series anomaly detection in electroplating lines.
+* **Research & Modeling:** Developed an unsupervised Gaussian mixture model for density estimation that predicts whether voltage will diverge from the nominal range up to 1 hour ahead of time.
+* **Deep Learning:** Trained an LSTM autoencoder for anomaly detection and a CNN to map voltage and current time series to the physical parameters of a rectifier circuit.
+* **Performance:** Optimized for a near-zero false-positive rate to avoid alarm fatigue in a real-time (1 check every 10s) production setting; achieved $TPR = 0.7$ at $FPR = 0$ on held-out data.
+* **Deployment:** Developed and integrated a C++ service to deploy the model into production software.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### **Maastricht University** | *Teaching Assistant*
+*Sep. 2025 – Jan. 2026 | Maastricht, NL*
+* **Courses:** Discrete Mathematics, Logic.
+* **Responsibilities:** Explained fundamental concepts in tutorials and graded student assignments.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+---
 
-#### Header 4
+## 📚 Publications & Projects
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+### **Reconstruction of Quantized Time Series with Particle Methods** *(Feb. 2026 – Jul. 2026)*
+> **Authors:** Elias Frühwein, Dr. Philippe Dreesen, Dr. Anirudh Wodeyar.  
+> *Status: In preparation, targeting submission to IFAC SysID 2027.*
+* Derived and implemented the following for an $AR(p)$ model with quantized observations:
+  * Fully adapted auxiliary particle filter
+  * Particle EM algorithm
+  * Particle estimate of observed-data log-likelihood (enabling AIC-based order estimation)
+* **Results:** Reconstructed signal shows a statistically significant increase in $R^2$ over the quantized signal on $AR(p)$ data, under model misspecification, and on real-world data across several domains.
 
-##### Header 5
+### **GradNode** | [GitHub Repository](https://github.com/EliasF05/GradNode) *(Feb. 2024 – Mar. 2024)*
+* Built **GradNode**, a lightweight autograd framework written completely in Java from scratch (no LLM assistance).
+* Developed **JNN**, a Multi-Layer Perceptron (MLP) framework built directly on top of GradNode.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+---
 
-###### Header 6
+## 🛠 Skills & Coursework
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+* **Programming Languages:** Python, MATLAB, SQL, Java, C++ (Intermediate)
+* **Libraries & Frameworks:** PyTorch, Statsmodels, Scikit-Learn, NumPy, pandas
+* **Relevant Coursework:** Machine Learning, Natural Language Processing, Simulation & Statistical Analysis, Probability & Statistics, Linear Algebra, Mathematical Modeling
+* **Spoken Languages:** German (Native), English (C2)
