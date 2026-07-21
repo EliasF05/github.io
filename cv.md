@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Elias Frühwein - Curriculum Vitae
+title: Resume
 ---
 
 **[Home](index.md)** | **[CV](cv.md)**
 
 ---
 
-# Curriculum Vitae
+# Resume
 
 *(CV content coming soon)*
