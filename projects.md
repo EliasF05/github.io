@@ -8,6 +8,7 @@ description: Some of the work I've done recently
 ---
 
 - [*Reconstruction of Quantized Time Series*](rqts.md) (Manuscript in preparation, supervised by Dr. Anirudh Wodeyar)
+- [*Natural Language Processing Lecture Notes*](nlpnotes.md)
 - [*Automatic Differentiation from Scratch*](gradnode.md)
 
 
