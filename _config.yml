@@ -4,3 +4,6 @@ plugins:
 
 title: Elias Frühwein
 description: Incoming student of MSc in Data Science 
+
+markdown: kramdown
+mathjax: true
