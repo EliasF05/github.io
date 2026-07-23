@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: Contact
+description: I'm excited to hear from you, regarding almost anything!
 ---   
 
 **[Home](index.md)** | **[Projects](projects.md)** | **[CV](cv.md)** | **[Contact](contact.md)**
