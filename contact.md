@@ -6,5 +6,5 @@ title: Contact
 **[Home](index.md)** | **[Projects](projects.md)** | **[CV](cv.md)** | **[Contact](contact.md)**
 ---
 
-**LinkedIn**: [https://www.linkedin.com/in/elias-fr%C3%BChwein-b66415295/](https://www.linkedin.com/in/elias-fruehwein/)  \
+**LinkedIn**: [https://www.linkedin.com/in/elias-fruehwein/](https://www.linkedin.com/in/elias-fr%C3%BChwein-b66415295/)  \
 **Email**: [elias@fruehwein.net](mailto:elias@fruehwein.net)
