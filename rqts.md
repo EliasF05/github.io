@@ -25,11 +25,7 @@ State estimation is the task of inferring the hidden, unobserved state $$x_t$$ o
 
 In our case, it will make sense to generally view reconstruction as a smoothing problem, where we attempt to estimate 
 
-**Particle Filering**<br>
-
-**Particle Smoohthing**<br>
-
-**Particle Expectation-Maximization**<br>
+**Parameter Estimation**<br>
 
 **Order Estimation**<br>
 
