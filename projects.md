@@ -8,5 +8,6 @@ description: Some of the work I've done recently
 ---
 
 - [*Reconstruction of Quantized Time Series*](rqts.md)
+- [*Automatic Differentiation from Scratch*](gradnode.md)
 
 
